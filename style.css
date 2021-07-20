@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #edf2ce;
+    background: url(bck1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+nav ul li  a:hover{
+    background: #f3a99c;
+}
+
+.nature{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.nature h1{
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 20px
+}
+span{
+    color: #ff4321;
+}
+.nature p{
+    line-height: 22px;
+    color: rgb(34, 2, 2);
+    font-size: 1.3rem;
+}
+
+.nature a{
+    background: #212122;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 13px;
+
+}
+
+.nature a:hover{
+    background: #f88484;
+}
+
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    width: 80%;
+    margin: 50px 154px;
+    padding: 60px 24px;
+    position: absolute;
+   
+}
+.nature h3{
+    font-size: 1.8rem;
+}
+.nature ul li{
+    margin: 5px 5px;
+    padding: 4px 5px;
+    color: #fff;
+    font-size: 1.3rem;
+}
